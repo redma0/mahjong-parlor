@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: '/mahjong-parlor', // Should match your repository name
-  output: 'export', // Required for static site generation
+  // remove basePath or change it to match your setup
+  output: 'export',
   images: {
-    unoptimized: true // Required for static export
+    unoptimized: true
   }
 };
+
 
 export default nextConfig;
