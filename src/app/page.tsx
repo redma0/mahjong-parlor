@@ -1,4 +1,5 @@
-// src/pages/index.tsx
+// src/app/page.tsx
+
 import { FaWhatsapp, FaViber } from 'react-icons/fa';
 import { FaWeixin } from 'react-icons/fa6'; // WeChat icon
 
@@ -7,11 +8,11 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center justify-center bg-[#f7eccc] p-8 relative">
       {/* Logo */}
       <div className="mb-12 w-full max-w-[300px] relative z-10">
-        <img 
-          src="/mahjong-logo-transparent.png" 
-          alt="Mahjong Parlor" 
-          className="w-full h-auto"
-        />
+      <img 
+  src="/mahjong-parlor/mahjong-logo-transparent.png"  // Update this line
+  alt="Mahjong Parlor" 
+  className="w-full h-auto"
+/>
       </div>
 
       {/* Launch Text */}
