@@ -1,4 +1,5 @@
-// src/pages/index.tsx
+// src/app/page.tsx
+
 import { FaWhatsapp, FaViber } from 'react-icons/fa';
 import { FaWeixin } from 'react-icons/fa6'; // WeChat icon
 
