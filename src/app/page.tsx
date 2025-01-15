@@ -9,10 +9,11 @@ export default function Home() {
       {/* Logo */}
       <div className="mb-12 w-full max-w-[300px] relative z-10">
       <img 
-  src="/mahjong-parlor/mahjong-logo-transparent.png"  // Update this line
+  src="/mahjong-logo-transparent.png"  // Remove /mahjong-parlor from the path
   alt="Mahjong Parlor" 
   className="w-full h-auto"
 />
+
       </div>
 
       {/* Launch Text */}
